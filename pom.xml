@@ -49,6 +49,10 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-h2console</artifactId>
+        </dependency>
+        <dependency>
             <!-- Lombok：冗長なコードを簡潔にしてくれるライブラリ -->
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
